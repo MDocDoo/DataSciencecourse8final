@@ -45,7 +45,7 @@ app.layout = html.Div([
             style={'width':'80%', 'padding': '3px', 'font-size': '20px', 'text-align': 'center'} 
         )),
     html.Div([  # TASK 2.3: Add a division for output display
-        html.Div(id='output-container', className='chart-grid', style={'display': 'flex'}),
+        html.Div(id='output-container', className='chart-grid', style={'display': 'flex', 'flex-wrap': 'wrap'}),
     ])
 ])
 @app.callback(
